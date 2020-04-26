@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "DesignPatterns\Memento.csproj", "{DC1591BB-FD97-4662-A896-7FF73C60D8B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "DesignPatterns\Memento.csproj", "{DC1591BB-FD97-4662-A896-7FF73C60D8B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{6FAC1649-BB75-4324-A835-B1BABA6891D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{6FAC1649-BB75-4324-A835-B1BABA6891D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{446F5321-EF4F-47E3-9BF7-BB4230A325F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{446F5321-EF4F-47E3-9BF7-BB4230A325F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{C55CDFCF-E528-4E3D-AAD7-95713B0CFEE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{C55CDFCF-E528-4E3D-AAD7-95713B0CFEE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{4DE8E7CF-DAB3-4ED3-A117-30CDD31F7BA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{4DE8E7CF-DAB3-4ED3-A117-30CDD31F7BA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{E0E6FEF7-6861-4396-9643-969E9B81CE1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{644A2839-F148-4943-8364-AE17F9969E10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{1AC6FE74-3452-4ADE-9415-E348C75FE1ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{86DA5AE5-8C7C-464D-A974-3385349BF803}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{4DE8E7CF-DAB3-4ED3-A117-30CDD31F7BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DE8E7CF-DAB3-4ED3-A117-30CDD31F7BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DE8E7CF-DAB3-4ED3-A117-30CDD31F7BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E6FEF7-6861-4396-9643-969E9B81CE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E6FEF7-6861-4396-9643-969E9B81CE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E6FEF7-6861-4396-9643-969E9B81CE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E6FEF7-6861-4396-9643-969E9B81CE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644A2839-F148-4943-8364-AE17F9969E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644A2839-F148-4943-8364-AE17F9969E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644A2839-F148-4943-8364-AE17F9969E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644A2839-F148-4943-8364-AE17F9969E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC6FE74-3452-4ADE-9415-E348C75FE1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC6FE74-3452-4ADE-9415-E348C75FE1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC6FE74-3452-4ADE-9415-E348C75FE1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC6FE74-3452-4ADE-9415-E348C75FE1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DA5AE5-8C7C-464D-A974-3385349BF803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DA5AE5-8C7C-464D-A974-3385349BF803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DA5AE5-8C7C-464D-A974-3385349BF803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DA5AE5-8C7C-464D-A974-3385349BF803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
